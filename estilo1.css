@@ -1,0 +1,139 @@
+
+
+body{
+    animation: fundo 10s infinite linear;
+    background-color: #3098E8;
+}
+
+@keyframes fundo{
+    0%{background-color: #00fa92;}
+
+    12.5%{background-color: #09f5f5;}
+
+    25%{background-color: #0778fa;}
+
+    37.5%{background-color: #4c00ff;}
+
+    50%{background-color: #150341;}
+
+    62.5%{background-color: #4c00ff;}
+
+    75%{background-color: #0778fa;}
+
+    87.5%{background-color: #09f5f5;}
+
+    100%{background-color: #2ffda7;}
+
+
+
+
+
+}
+
+h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+header{
+    width: 400px;
+    min-height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    background-color:lightgray;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+h2{
+    text-align: center;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+tr{
+    border: 2px solid #333;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 2px solid rgb(15, 3, 3);
+    border-collapse: collapse;
+    width: 200px;
+    height: 50px;
+}
+
+fieldset{
+    border: none;
+    width: 200px;
+    text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    
+}
+
+
+table{
+    border-collapse: collapse;
+    text-align: center;
+    border-radius: 5px;
+    border: lightgray 5px solid;
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+    
+}
+
+p{
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 20px;
+}
+  
+.input{
+    height: 30px;
+    width: 200px;
+    color: #333;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.enviar{
+    height: 40px;
+    width: 80px;
+    border: 2px solid gray;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+}
+
+
+
+
+.tabela{
+    border-collapse: collapse;
+    text-align: center;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border: lightgray 1px solid;
+    box-shadow: 2px 2px 10px black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5px;
+}
+
+
